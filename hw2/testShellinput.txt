@@ -1,0 +1,15 @@
+newfs thing 32 512
+mount thing
+blockmap
+alloc_block
+blockmap
+free_block 3
+blockmap
+inode_map
+alloc_inode f
+inode_map
+free_inode 1
+inode_map
+unmount
+mount notfound
+exit

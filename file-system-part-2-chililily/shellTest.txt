@@ -1,0 +1,57 @@
+newfs foo 200 1024
+mount foo
+blockmap
+inodemap
+alloc_block
+alloc_block
+alloc_block
+alloc_block
+alloc_block
+alloc_block
+alloc_block
+alloc_block
+alloc_block
+alloc_block
+alloc_block
+alloc_inode 1
+alloc_inode 1
+alloc_inode 1
+alloc_inode 1
+alloc_inode 1
+alloc_inode 1
+alloc_inode 1
+alloc_inode 1
+alloc_inode 1
+alloc_inode 1
+alloc_inode 2
+alloc_inode 2
+alloc_inode 2
+alloc_inode 2
+alloc_inode 2
+alloc_inode 2
+alloc_inode 2
+alloc_inode 2
+alloc_inode 2
+alloc_inode 3
+alloc_inode 3
+alloc_inode 3
+alloc_inode 3
+alloc_inode 3
+alloc_inode 3
+alloc_inode 3
+alloc_inode 3
+alloc_inode 3
+alloc_inode 3
+alloc_inode 3
+alloc_inode 3
+blockmap
+inodemap
+unmount
+mount foo
+blockmap
+inodemap
+free_block 20
+free_inode 20
+blockmap
+inodemap
+unmount
